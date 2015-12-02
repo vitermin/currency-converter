@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @ComponentScan(basePackages="org.pandey")
 @EnableWebMvc
-public class MvcConfiguration extends WebMvcConfigurerAdapter{
+public class CCRConfiguration extends WebMvcConfigurerAdapter{
 
 	@Bean
 	public ViewResolver getViewResolver(){
